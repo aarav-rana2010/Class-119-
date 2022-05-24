@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    color: black;
+    background-color: aquamarine;
+}
+
+#show_sketch {
+    float:right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas {
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: Sketch-Identification;
+    animation-duration: 4s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+}
+@keyframes Sketch-Identification{
+    from{box-shadow: 1px 1px 40px white;}
+    to{box-shadow: 1px 1px 40px black;}
+}
